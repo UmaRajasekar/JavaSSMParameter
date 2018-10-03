@@ -15,7 +15,7 @@ public class SendEmail {
 	public static void main(String args[]) {
 		String from="rajasekar.puniyamoorthy@gmail.com";
 		String to="umarajasekar.er@gmail.com";
-		String password="Adolfhitler1@";
+		String password="*********";
 		Properties properties=System.getProperties();
 		properties.put("mail.smtp.host", "smtp.gmail.com");    
 		properties.put("mail.smtp.socketFactory.port", "465");    
